@@ -1,0 +1,45 @@
+ros-jazzy-test-tracetools (6.2.0-1trixie) trixie; urgency=high
+
+
+
+ -- Christophe Bedard <bedard.christophe@gmail.com>  Mon, 17 Apr 2023 16:00:00 -0000
+
+ros-jazzy-test-tracetools (6.1.0-1trixie) trixie; urgency=high
+
+  * Add intra-process tracepoints (#30 <https://github.com/ros2/ros2_tracing/issues/30>)
+  * Contributors: ymski
+
+ -- Christophe Bedard <bedard.christophe@gmail.com>  Wed, 12 Apr 2023 16:00:00 -0000
+
+ros-jazzy-test-tracetools (6.0.0-1trixie) trixie; urgency=high
+
+  * Allow requiring minimum lttng package version for is_lttng_installed (#59 <https://github.com/ros2/ros2_tracing/issues/59>)
+  * Disable tracing on macOS (#53 <https://github.com/ros2/ros2_tracing/issues/53>)
+  * Include tracepoints by default on Linux (#31 <https://github.com/ros2/ros2_tracing/issues/31>)
+  * Contributors: Christophe Bedard
+
+ -- Christophe Bedard <bedard.christophe@gmail.com>  Tue, 11 Apr 2023 16:00:00 -0000
+
+ros-jazzy-test-tracetools (5.1.0-1trixie) trixie; urgency=high
+
+  * Fix memory leak in tracetools::get_symbol() (#43 <https://github.com/ros2/ros2_tracing/issues/43>)
+  * Contributors: Christophe Bedard
+
+ -- Christophe Bedard <bedard.christophe@gmail.com>  Wed, 01 Mar 2023 16:00:00 -0000
+
+ros-jazzy-test-tracetools (5.0.0-1trixie) trixie; urgency=high
+
+  * Update tracing to C++17. (#33 <https://github.com/ros2/ros2_tracing/issues/33>)
+  * Contributors: Chris Lalancette
+
+ -- Christophe Bedard <bedard.christophe@gmail.com>  Mon, 13 Feb 2023 16:00:00 -0000
+
+ros-jazzy-test-tracetools (4.0.0-1trixie) trixie; urgency=high
+
+  * Introduce constants for tracepoint names
+  * Move actual tests out of tracetools_test to new test_tracetools package
+  * Contributors: Christophe Bedard
+
+ -- Christophe Bedard <bedard.christophe@gmail.com>  Wed, 19 Jan 2022 16:00:00 -0000
+
+

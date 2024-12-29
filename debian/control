@@ -1,0 +1,12 @@
+Source: ros-jazzy-test-tracetools
+Section: misc
+Priority: optional
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-mypy <!nocheck>, ros-jazzy-ament-cmake-pytest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-lifecycle-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tracetools <!nocheck>, ros-jazzy-tracetools-test <!nocheck>, ros-jazzy-ros-workspace
+Homepage: https://github.com/ros2/ros2_tracing
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-test-tracetools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-lifecycle-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Description: Tests for the tracetools package.
